@@ -4,7 +4,7 @@ here=$(dirname $0)
 base=$here/..
 results=$base/results
 
-nginx_docker_id=$(docker run --rm -d --network host -p 80:80 --name nginx nginx)
+nginx_docker_id=$(docker run --rm -d --network host --name nginx nginx)
 read -r -d '' plotscript <<'EOF'
 set terminal png
 set xlabel "distribution"
