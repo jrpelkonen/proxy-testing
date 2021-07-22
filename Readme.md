@@ -9,7 +9,7 @@ Possible future additions
 
 - [x] Envoy
 - [x] Node.js
-- [ ] vert.x
+- [x] vert.x
 
 ## Motivation
 
