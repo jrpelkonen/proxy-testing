@@ -7,9 +7,10 @@ results=$base/results
 nginx_docker_id=$(docker run --rm -d --network host --name nginx nginx)
 read -r -d '' plotscript <<'EOF'
 set terminal png
-set xlabel "distribution"
-set ylabel "latency"
-set format y "%s%cs"
+set term png size 1200, 1000
+set xlabel "Distribution"
+set ylabel "Latency"
+set format y "%.0s%cs"
 set logscale y
 
 plot

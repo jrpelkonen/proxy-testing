@@ -2,13 +2,14 @@
 
 Test implementations and benchmarks of simple http proxying. Currently tested:
 
-* Rust/Hyper based proxy
-* Golang (net/http) based proxy
+- Rust/Hyper based proxy
+- Golang (net/http) based proxy
 
 Possible future additions
 
-* Envoy
-* Node.js
+- [x] Envoy
+- [x] Node.js
+- [ ] vert.x
 
 ## Motivation
 
